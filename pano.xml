@@ -1,211 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.16" start="node1" apprev="18125">
+<tour appversion="6.1.16" apprev="18125" start="node1">
   <panorama id="node1">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-3.95" pan="-1.03" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="-1.09" projection="4" tilt="14.89" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-56.30" heading="0" info="" author="" source="" latitude="19.033833" datetime="11-05-2026 17:45" comment="" title="INKSANE Outdoor" nodeid="node1" description="" customnodeid="" longitude="73.063333"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-3.86" url="{node2}" target="" skinid="ht_node" pan="-354.22" id="Point01" title="INKSANE Main Door" description="" distance="18.626"/>
+    <userdata latitude="19.033833" heading="0" title="INKSANE Outdoor" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033833,73.063333,3a,75y,1.03h,90t/data=!3m4!1e1!3m2!1sCIABIhB3v4yV3KCD6LuVj7XqFPxt!2e10" source="" comment="" longitude="73.063333" altitude="-56.30" description="" author="" nodeid="node1" datetime="11-05-2026 17:45" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-354.22" title="INKSANE Main Door" distance="18.626" skinid="ht_node" target="" tilt="-3.86" description="" id="Point01" url="{node2}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node2">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-5.87" pan="-176.98" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="-175.08" projection="4" tilt="0.22" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-73.50" heading="0" info="" author="" source="" latitude="19.033889" datetime="11-05-2026 17:51" comment="" title="INKSANE Main Door" nodeid="node2" description="" customnodeid="" longitude="73.063500"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-4.35" url="{node1}" target="" skinid="ht_node" pan="-351.18" id="Point01" title="INKSANE Outdoor" description="" distance="18.626"/>
-      <hotspot tilt="-4.65" url="{node3}" target="" skinid="ht_node" pan="-169.27" id="Point02" title="INKSANE Reception" description=""/>
+    <userdata latitude="19.033889" heading="0" title="INKSANE Main Door" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033889,73.0635,3a,75y,176.98h,90t/data=!3m4!1e1!3m2!1sCIABIhDfdv6ANHoC8WSKty_SlNq5!2e10" source="" comment="" longitude="73.063500" altitude="-73.50" description="" author="" nodeid="node2" datetime="11-05-2026 17:51" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-351.18" title="INKSANE Outdoor" distance="18.626" skinid="ht_node" target="" tilt="-4.35" description="" id="Point01" url="{node1}"/>
+      <hotspot pan="-169.27" title="INKSANE Reception" skinid="ht_node" target="" tilt="-4.65" description="" id="Point02" url="{node3}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node3">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-7.58" pan="-91.91" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="-90.73" projection="4" tilt="-19.06" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-73.50" heading="0" info="" author="" source="" latitude="19.033889" datetime="11-05-2026 17:56" comment="" title="INKSANE Reception" nodeid="node3" description="" customnodeid="" longitude="73.063500"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-18.04" url="{node2}" target="" skinid="ht_node" pan="-238.59" id="Point01" title="INKSANE Main Door" description=""/>
-      <hotspot tilt="25.27" url="{node4}" target="" skinid="ht_node" pan="-110.21" id="Point02" title="INKSANE Tattoo Station Center" description=""/>
+    <userdata latitude="19.033889" heading="0" title="INKSANE Reception" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033889,73.0635,3a,75y,91.91h,90t/data=!3m4!1e1!3m2!1sCIABIhAttKnOTcys8Ql81cRdBg8i!2e10" source="" comment="" longitude="73.063500" altitude="-73.50" description="" author="" nodeid="node3" datetime="11-05-2026 17:56" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-238.59" title="INKSANE Main Door" skinid="ht_node" target="" tilt="-18.04" description="" id="Point01" url="{node2}"/>
+      <hotspot pan="-110.21" title="INKSANE Tattoo Station Center" skinid="ht_node" target="" tilt="25.27" description="" id="Point02" url="{node4}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node4">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-8.54" pan="-98.46" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="61.93" projection="4" tilt="-17.85" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-73.50" heading="0" info="" author="" source="" latitude="19.033889" datetime="11-05-2026 17:58" comment="" title="INKSANE Tattoo Station Center" nodeid="node4" description="" customnodeid="" longitude="73.063500"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-37.81" url="{node3}" target="" skinid="ht_node" pan="-154.06" id="Point01" title="INKSANE Reception" description=""/>
-      <hotspot tilt="-7.37" url="{node5}" target="" skinid="ht_node" pan="-106.7" id="Point02" title="INKSANE Tattoo Station - Artist Area" description=""/>
+    <userdata latitude="19.033889" heading="0" title="INKSANE Tattoo Station Center" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033889,73.0635,3a,75y,98.46h,90t/data=!3m4!1e1!3m2!1sCIABIhAzh_JWUYz8wAz75J3VJkq3!2e10" source="" comment="" longitude="73.063500" altitude="-73.50" description="" author="" nodeid="node4" datetime="11-05-2026 17:58" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-154.06" title="INKSANE Reception" skinid="ht_node" target="" tilt="-37.81" description="" id="Point01" url="{node3}"/>
+      <hotspot pan="-90.75" title="INKSANE Tattoo Station - Artist Area" skinid="ht_node" target="" tilt="-6.72" description="" id="Point02" url="{node5}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node5">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-5.52" pan="-72.03" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="-154.11" projection="4" tilt="-10.05" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-73.50" heading="0" info="" author="" source="" latitude="19.033889" datetime="11-05-2026 17:59" comment="" title="INKSANE Tattoo Station - Artist Area" nodeid="node5" description="" customnodeid="" longitude="73.063500"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-3.7" url="{node6}" target="" skinid="ht_node" pan="-74.05" id="Point01" title="INKSANE Tattoo Station - Sterilization" description="" distance="15.8826"/>
+    <userdata latitude="19.033889" heading="0" title="INKSANE Tattoo Station - Artist Area" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033889,73.0635,3a,75y,72.03h,90t/data=!3m4!1e1!3m2!1sCIABIhDmxZdsqx9Q8OhBMtfJkF9g!2e10" source="" comment="" longitude="73.063500" altitude="-73.50" description="" author="" nodeid="node5" datetime="11-05-2026 17:59" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-74.05" title="INKSANE Tattoo Station - Sterilization" distance="15.8826" skinid="ht_node" target="" tilt="-3.7" description="" id="Point01" url="{node6}"/>
+      <hotspot pan="-18.91" title="INKSANE Tattoo Station Center" skinid="ht_node" target="" tilt="-8.35" description="" id="Point02" url="{node4}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node6">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-8.05" pan="-118.99" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="157.9" projection="4" tilt="-8.32" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-66.50" heading="0" info="" author="" source="" latitude="19.033833" datetime="11-05-2026 18:01" comment="" title="INKSANE Tattoo Station - Sterilization" nodeid="node6" description="" customnodeid="" longitude="73.063361"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-3.42" url="{node7}" target="" skinid="ht_node" pan="-110.96" id="Point01" title="INKSANE Tattoo Station - Tattoo Area" description="" distance="3.00226"/>
-      <hotspot tilt="-2.02" url="{node5}" target="" skinid="ht_node" pan="-36.92" id="Point02" title="INKSANE Tattoo Station - Artist Area" description="" distance="15.8826"/>
+    <userdata latitude="19.033833" heading="0" title="INKSANE Tattoo Station - Sterilization" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033833,73.063361,3a,75y,119h,90t/data=!3m4!1e1!3m2!1sCIABIhCqx16rjW7Oe1lNkQK885H4!2e10" source="" comment="" longitude="73.063361" altitude="-66.50" description="" author="" nodeid="node6" datetime="11-05-2026 18:01" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-110.96" title="INKSANE Tattoo Station - Tattoo Area" distance="3.00226" skinid="ht_node" target="" tilt="-3.42" description="" id="Point01" url="{node7}"/>
+      <hotspot pan="-36.92" title="INKSANE Tattoo Station - Artist Area" distance="15.8826" skinid="ht_node" target="" tilt="-2.02" description="" id="Point02" url="{node5}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node7">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-7.54" pan="-178.1" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="170.68" projection="4" tilt="-13.97" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-65.60" heading="0" info="" author="" source="" latitude="19.033806" datetime="11-05-2026 18:02" comment="" title="INKSANE Tattoo Station - Tattoo Area" nodeid="node7" description="" customnodeid="" longitude="73.063361"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-9.38" url="{node6}" target="" skinid="ht_node" pan="-78.86" id="Point01" title="INKSANE Tattoo Station - Sterilization" description="" distance="3.00226"/>
-      <hotspot tilt="-8.69" url="{node8}" target="" skinid="ht_node" pan="-178.94" id="Point02" title="INKSANE Tattoo Station - Workstation" description="" distance="8.48838"/>
+    <userdata latitude="19.033806" heading="0" title="INKSANE Tattoo Station - Tattoo Area" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033806,73.063361,3a,75y,178.1h,90t/data=!3m4!1e1!3m2!1sCIABIhA64zYJB0VpD56Rqx9fCGbD!2e10" source="" comment="" longitude="73.063361" altitude="-65.60" description="" author="" nodeid="node7" datetime="11-05-2026 18:02" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-78.86" title="INKSANE Tattoo Station - Sterilization" distance="3.00226" skinid="ht_node" target="" tilt="-9.38" description="" id="Point01" url="{node6}"/>
+      <hotspot pan="-178.94" title="INKSANE Tattoo Station - Workstation" distance="8.48838" skinid="ht_node" target="" tilt="-8.69" description="" id="Point02" url="{node8}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node8">
-    <input width="2976" height="2976" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" leveltilesize="510">
-      <level width="2976" height="2976" predecode="0" preload="0"/>
-      <level width="1488" height="1488" predecode="0" preload="0"/>
-      <level width="744" height="744" predecode="0" preload="0"/>
-      <level width="372" height="372" predecode="1" preload="1"/>
+    <input width="2976" leveltilesize="510" levelingroll="0" levelbias="0.400" overlap="1" levelbiashidpi="1.000" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2976">
+      <level width="2976" preload="0" predecode="0" height="2976"/>
+      <level width="1488" preload="0" predecode="0" height="1488"/>
+      <level width="744" preload="0" predecode="0" height="744"/>
+      <level width="372" preload="1" predecode="1" height="372"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-26.87" pan="79.06" fov="70"/>
-      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fovfisheye="360" pan="360" scaletofit="1" fov="120"/>
+      <start pan="79.06" projection="4" tilt="-26.87" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata copyright="" tags="Renders" altitude="-61.90" heading="0" info="" author="" source="" latitude="19.033861" datetime="11-05-2026 18:04" comment="" title="INKSANE Tattoo Station - Workstation" nodeid="node8" description="" customnodeid="" longitude="73.063417"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" width="180" backgroundalpha="1" height="20" bordercolor="0x000000" enabled="1" borderradius="1" background="1" wordwrap="1" border="1" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0"/>
-      <hotspot tilt="-9.73" url="{node7}" target="" skinid="ht_node" pan="-30.67" id="Point01" title="INKSANE Tattoo Station - Tattoo Area" description="" distance="8.48838"/>
+    <userdata latitude="19.033861" heading="0" title="INKSANE Tattoo Station - Workstation" info="" customnodeid="" streetviewlink="https://www.google.com/maps/@19.033861,73.063417,3a,75y,280.9h,90t/data=!3m4!1e1!3m2!1sCIABIhABJRvA4tPsONsPuPBbFOCm!2e10" source="" comment="" longitude="73.063417" altitude="-61.90" description="" author="" nodeid="node8" datetime="11-05-2026 18:04" tags="Renders" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" border="1" backgroundcolor="0xffffff" textalpha="1" backgroundalpha="1" bordercolor="0x000000" borderalpha="1" textcolor="0x000000" background="1" wordwrap="1" height="20" borderradius="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-30.67" title="INKSANE Tattoo Station - Tattoo Area" distance="8.48838" skinid="ht_node" target="" tilt="-9.73" description="" id="Point01" url="{node7}"/>
+      <hotspot pan="-200.14" title="INKSANE Outdoor" distance="9.36254" skinid="ht_node" target="" tilt="-20.88" description="" id="Point02" url="{node1}"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" zoomin="0" softedge="0" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" sensitivity="8" lockedwheel="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1"/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" enabled="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomin="0" zoomoutpause="1" softedge="0" zoomspeed="2" type="crossdissolve"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control simulatemass="1" contextvr="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertwheel="0" sensitivity="8" contextfullscreen="1" rubberband="0" lockedmouse="0" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata copyright="" tags="" heading="0" info="" author="" source="" latitude="" datetime="" comment="" title="" nodeid="master" description="" customnodeid="" longitude=""/>
+    <userdata latitude="" heading="0" title="" info="" customnodeid="" source="" comment="" longitude="" description="" author="" nodeid="master" datetime="" tags="" copyright=""/>
   </masternode>
 </tour>
